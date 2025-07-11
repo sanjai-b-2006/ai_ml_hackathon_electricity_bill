@@ -5,21 +5,23 @@ I developed a supervised regression model to predict Electricity Bill using:
 
 ✅ Features:
 
-Appliance counts (Fan, Refrigerator, Air Conditioner, Television, Monitor)
+- Appliance counts (Fan, Refrigerator, Air Conditioner, Television, Monitor)
 
-Monthly usage hours
+- Monthly usage hours
 
-Tariff rate
+- Tariff rate
 
-City and Company
+- City and Company
 
 ✅ Approach:
 
 Trained two Linear Regression models:
 
-One with all features (including Monthly Usage Hours and Tariff Rate) for higher precision.
+- One with all features (including Monthly Usage Hours and Tariff Rate) for higher precision.
 
-Another without Monthly Usage Hours and Tariff Rate to test lower precision scenarios.
+- Another without Monthly Usage Hours and Tariff Rate to test lower precision scenarios.
+
+- In misc i have given models on ridge , elastic net , regression decision tree regression and gradient boost.
 
 Evaluated models using RMSE and R² on the dataset for accuracy comparison.
 
